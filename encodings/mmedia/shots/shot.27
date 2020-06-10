@@ -1,0 +1,2 @@
+alpha_at(5,974). alpha_at(5,975). alpha_at(5,976). alpha_at(5,977). alpha_at(5,978). alpha_at(5,979). alpha_at(15,980). alpha_at(15,981). alpha_at(15,982). alpha_at(15,983). alpha_at(15,984). alpha_at(15,985). alpha_at(25,986). alpha_at(25,987). alpha_at(25,988). alpha_at(25,989). alpha_at(25,990). alpha_at(25,991). alpha_at(5,992). alpha_at(5,993). alpha_at(5,994). alpha_at(5,995). alpha_at(5,996). alpha_at(5,997). alpha_at(15,998). alpha_at(15,999). alpha_at(15,1000). now(1000). number(1..1000). number_off_at(0..2).
+value(5). value(15). value(25).
