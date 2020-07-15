@@ -45,6 +45,9 @@ or
 
 
 ## MMEDIA BENCHMARK
+Content Caching benchmark (`mmedia`) has been run using both _`I`<sup>`2`</sup>`-DLV`_ `+ external_solver` and `Ticker`.
+
+### **_I<sup>2</sup>-DLV_+ external_solver execution**
 Mmedia benchmark can be run by passing to I<sup>2</sup>-DLV the input file `mmedia.xml`. The system will produce in output a series of ground programs stored in the folder `mmedia/mmedia_ground`. Each ground program correspond to a next shot repeted over the knowledge base with a new set of input fact.
   * `../idlv-incremental/i2dlv --isd --istats=1 < mmedia.xml`
 
@@ -54,4 +57,12 @@ Each ground program produced can be solved using one of the solver provided in t
 or
 
   * `../solver/clingo5.4 --mode=clasp mmedia/mmedia_ground/shot.X`
+
+
+### **Ticker execution**
+Mmedia benchmark can be run using the `Ticker` system. A detailed user guide on how to `download, install` and `execute` the Ticker system can be found to the [distributed stream reasoning](http://distributed-stream-reasoner.ainf.at/distributed-system/prototype/download/) web site. It is also possible to download a `shell` script useful to immediately run the system with the same input parameter we used for our experiments.
+  * `./runDstream.sh clingo|incremental 2> output.txt`
+
+The shell script can be downloaded [here](https://www.mat.unical.it/pacenza/storage/incremental-idlv/runDstream.sh).
+ 
 
