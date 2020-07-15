@@ -18,7 +18,7 @@
    * `pacman.xml`: it is an XML file containing all the instructions that have to be executed by _I<sup>2</sup>-DLV_ for running the `pacman` experiment.
 
 # HOW TO RUN THE EXPERIMENTS
-First of all you need to unzip the `idlv_incremental.zip` archive move and, then, you have to move in the ICLP2020 benchmarks folder. Run the shell command
+First of all you need to unzip the `idlv_incremental.zip` archive and, then, you have to move in the ICLP2020 benchmarks folder. Run the shell command
   * `cd ./idlv-incremental/ICLP2020_benchmarks`
 
 You can run all the tests using the I<sup>2</sup>-DLV version with or without the simplification/desimplification steps. If you want to test the performance of the system **with** the simplification/desimplification steps, you need to pass as argument of the executable the option `--isd` followed by the option `--istats=1` to get also some statistics overview.
